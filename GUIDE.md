@@ -23,22 +23,30 @@ Este guia fornece instruções detalhadas sobre como ativar e interagir com as p
 3. Escolha o arquivo `.chatmode.md` da persona desejada (veja tabela abaixo).
 4. No GitHub Copilot Chat, use o comando:
     - `/load ./modes/<nome_do_arquivo>.chatmode.md`
-    - *Exemplo:* `/load ./modes/product-manager.chatmode.md`
+    - *Exemplo:* `/load "./modes/Product Manager.chatmode.md"`
+    - *Exemplo:* `/load "./modes/Beast Mode.chatmode.md"`
 5. Aguarde a confirmação do Copilot.
 
 ## Tabela de Personas Disponíveis
 
-| Persona                      | Arquivo                              | Descrição Rápida                       |
+| Persona no Copilot           | Arquivo                              | Descrição Rápida                       |
 |------------------------------|--------------------------------------|----------------------------------------|
-| Product Manager              | product-manager.chatmode.md          | Requisitos, pesquisa de mercado        |
-| UX Designer                  | ux-designer.chatmode.md              | Experiência do usuário, protótipos     |
-| Architect                    | architect.chatmode.md                | Solução técnica, análise de codebase   |
-| Security Engineer            | security-engineer.chatmode.md        | Segurança, controles e revisão         |
-| Implementer                  | implementer.chatmode.md              | Implementação, testes                  |
-| QA Engineer                  | qa-engineer.chatmode.md              | Validação, qualidade                   |
-| DevOps Engineer              | devops-engineer.chatmode.md          | Deploy, automação, monitoramento       |
-| Technical Writer             | technical-writer.chatmode.md         | Documentação técnica                   |
-| SRE                          | site-reliability-engineer.chatmode.md| Confiabilidade, performance            |
+| **Prompt Advisor**           | Prompt Advisor.chatmode.md           | **Otimização de prompts para outras personas** |
+| Beast Mode                   | Beast Mode.chatmode.md               | Agente universal completo              |
+| Product Manager              | Product Manager.chatmode.md          | Requisitos, pesquisa de mercado        |
+| UX Designer                  | UX Designer.chatmode.md              | Experiência do usuário, protótipos     |
+| Architect                    | Architect.chatmode.md                | Solução técnica, análise de codebase   |
+| Security                     | Security.chatmode.md                 | Segurança, controles e revisão         |
+| Developer                    | Developer.chatmode.md                | Implementação, desenvolvimento         |
+| QA Tester                    | QA Tester.chatmode.md                | Validação, qualidade                   |
+| DevOps                       | DevOps.chatmode.md                   | Deploy, automação, monitoramento       |
+| Technical Writer             | Technical Writer.chatmode.md         | Documentação técnica                   |
+| SRE                          | SRE.chatmode.md                      | Confiabilidade, performance            |
+| Data Engineer                | Data Engineer.chatmode.md            | Pipelines, análise de dados            |
+| Debugger                     | Debugger.chatmode.md                 | Resolução de problemas                 |
+| Scrum Master                 | Scrum Master.chatmode.md             | Facilitação ágil                       |
+| Learning Tutor               | Learning Tutor.chatmode.md           | Tutoria personalizada                  |
+| Personal Assistant           | Personal Assistant.chatmode.md       | Organização pessoal                    |
 | Data Engineer                | data-engineer.chatmode.md            | Pipelines, análise de dados            |
 | Problem Solver               | problem-solver.chatmode.md           | Diagnóstico, resolução de problemas    |
 | Scrum Master                 | scrum-master.chatmode.md             | Facilitação ágil, remoção de impedimentos |

@@ -12,24 +12,26 @@ Este repositório contém uma coleção de **"chat modes" (ou personas de IA) ap
 
 ## Personas Disponíveis
 
-O ecossistema é composto por **14 personas especializadas e autônomas**, divididas em tiers para refletir sua aplicação e complexidade:
+O ecossistema é composto por **16 personas especializadas e autônomas**, organizadas em tiers e com nomenclatura simplificada:
 
-| Tier | Persona | Função Principal |
-|------|---------|-----------------|
-| Core | Enhanced Product Manager 2.0 | Requisitos de produto detalhados |
-| Core | Enhanced Software Architect 2.0 | Soluções técnicas escaláveis |
-| Core | Enhanced Software Implementer 2.0 | Implementação e testes |
-| Core | Enhanced Problem Solver 2.0 | Diagnóstico e resolução de problemas |
-| Qualidade | Enhanced DevOps Engineer 2.0 | CI/CD, infraestrutura, monitoramento |
-| Qualidade | Enhanced QA Engineer 2.0 | Estratégias de teste abrangentes |
-| Qualidade | Enhanced UX Designer 2.0 | Design centrado no usuário |
-| Processo | Enhanced Scrum Master 2.0 | Facilitação ágil |
-| Processo | Enhanced Security Engineer 2.0 | Segurança por design |
-| Processo | Enhanced Technical Writer 2.0 | Documentação técnica |
-| Avançado | Enhanced Site Reliability Engineer (SRE) 2.0 | Confiabilidade e escalabilidade |
-| Avançado | Enhanced Data Engineer 2.0 | Pipelines e qualidade de dados |
-| Pessoal | Enhanced AI Learning Tutor 2.0 | Tutoria personalizada |
-| Pessoal | Enhanced Personal Life Assistant 2.0 | Gestão de vida e projetos |
+| Tier | Nome no GitHub Copilot | Função Principal |
+|------|------------------------|-----------------|
+| **Meta** | **Prompt Advisor** | Otimização de prompts para outras personas |
+| **Core** | **Beast Mode** | Agente universal de desenvolvimento |
+| **Core** | **Product Manager** | Requisitos de produto detalhados |
+| **Core** | **Architect** | Soluções técnicas escaláveis |
+| **Core** | **Developer** | Implementação e desenvolvimento |
+| **Core** | **Debugger** | Diagnóstico e resolução de problemas |
+| **Quality** | **DevOps** | CI/CD, infraestrutura, monitoramento |
+| **Quality** | **QA Tester** | Estratégias de teste abrangentes |
+| **Quality** | **UX Designer** | Design centrado no usuário |
+| **Process** | **Scrum Master** | Facilitação ágil |
+| **Process** | **Security** | Segurança por design |
+| **Process** | **Technical Writer** | Documentação técnica |
+| **Advanced** | **SRE** | Confiabilidade e escalabilidade |
+| **Advanced** | **Data Engineer** | Pipelines e qualidade de dados |
+| **Personal** | **Learning Tutor** | Tutoria personalizada |
+| **Personal** | **Personal Assistant** | Organização e otimização pessoal |
 
 
 ## Benefícios do Ecossistema Integrado
