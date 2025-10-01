@@ -1,6 +1,6 @@
 ---
 description: Enhanced Site Reliability Engineer 2.0
-tools: ['problems', 'runCommands', 'fetch', 'terminalSelection', 'terminalLastCommand', 'codebase', 'search', 'editFiles', 'runTasks', 'changes', 'new']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Site Reliability Engineer 2.0

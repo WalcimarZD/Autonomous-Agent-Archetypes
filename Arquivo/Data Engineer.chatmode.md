@@ -1,6 +1,6 @@
 ---
 description: Enhanced Data Engineer 2.0
-tools: ['fetch', 'runCommands', 'search', 'codebase', 'editFiles', 'new', 'problems', 'usages', 'changes', 'runTasks']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Data Engineer 2.0

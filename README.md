@@ -1,100 +1,413 @@
+# GitHub Copilot Autonomous Agent Archetypes v2.1
 
-# GitHub Copilot Personas: AI Ecosystem for Software Development & Personal Optimization
+## 🚀 Advanced AI Chat Modes for Complete Software Development Lifecycle
 
-This repository contains a collection of **advanced chat modes (AI personas) designed to extend GitHub Copilot's capabilities**. Inspired by the robustness of "Beast Mode", each persona is autonomous, equipped with a specific set of tools and structured methodologies to cover all facets of the software development lifecycle and personal learning/management.
+Este repositório contém **5 chat modes otimizados e autônomos** para GitHub Copilot, projetados para maximizar produtividade e eficiência de créditos através de estratégias de checkpoint e comunicação inteligente.
+
+**✨ Versão 2.1**: Otimizações de token limit e credit management
 
 ---
 
-## Personas para GitHub Copilot: Ecossistema de IA para Desenvolvimento de Software e Otimização Pessoal
+## 🎯 O Que São Chat Modes?
 
-Este repositório contém uma coleção de **"chat modes" (ou personas de IA) aprimorados, projetados para estender as capacidades do GitHub Copilot**. Inspirados na robustez do "Beast Mode" [1, 2], cada persona foi desenvolvida com autonomia, um conjunto específico de ferramentas e metodologias estruturadas para cobrir diversas facetas do ciclo de vida do desenvolvimento de software, bem como áreas de aprendizado e gestão de vida pessoal [3-6].
+Chat modes são **personas especializadas de IA** que estendem as capacidades do GitHub Copilot com:
 
+- **Autonomia**: Trabalham independentemente até completar tarefas
+- **Ferramentas Específicas**: Acesso às tools certas para cada função
+- **Metodologia Estruturada**: Workflows iterativos com checkpoints
+- **Pesquisa Ativa**: Buscam informações atualizadas e best practices
+- **Comunicação Otimizada**: Outputs concisos e de alta densidade
 
-## Personas Disponíveis
+---
 
-O ecossistema é composto por **16 personas especializadas e autônomas**, organizadas em tiers e com nomenclatura simplificada:
+## 📊 Modes Ativos (v2.1)
 
-| Tier | Nome no GitHub Copilot | Função Principal |
-|------|------------------------|-----------------|
-| **Meta** | **Prompt Advisor** | Otimização de prompts para outras personas |
-| **Core** | **Beast Mode** | Agente universal de desenvolvimento |
-| **Core** | **Product Manager** | Requisitos de produto detalhados |
-| **Core** | **Architect** | Soluções técnicas escaláveis |
-| **Core** | **Developer** | Implementação e desenvolvimento |
-| **Core** | **Debugger** | Diagnóstico e resolução de problemas |
-| **Quality** | **DevOps** | CI/CD, infraestrutura, monitoramento |
-| **Quality** | **QA Tester** | Estratégias de teste abrangentes |
-| **Quality** | **UX Designer** | Design centrado no usuário |
-| **Process** | **Scrum Master** | Facilitação ágil |
-| **Process** | **Security** | Segurança por design |
-| **Process** | **Technical Writer** | Documentação técnica |
-| **Advanced** | **SRE** | Confiabilidade e escalabilidade |
-| **Advanced** | **Data Engineer** | Pipelines e qualidade de dados |
-| **Personal** | **Learning Tutor** | Tutoria personalizada |
-| **Personal** | **Personal Assistant** | Organização e otimização pessoal |
+### 🔧 **Software Developer**
 
-
-## Benefícios do Ecossistema Integrado
-
-- **Autonomia Real:** Cada persona trabalha de forma independente até completar suas tarefas específicas.
-- **Pesquisa Ativa:** Todas utilizam pesquisa para informações atualizadas e melhores práticas.
-- **Ferramentas Adequadas:** Cada uma tem acesso às ferramentas necessárias para sua função.
-- **Metodologia Estruturada:** Fluxos de trabalho iterativos, listas de tarefas, checkpoints e validação sistemática.
-- **Fluxos de Trabalho Integrados:** As personas se complementam, cobrindo todo o ciclo de vida de desenvolvimento e gestão pessoal.
-
-
-## Getting Started / Como Usar
-
-To use these personas, load the desired `.chatmode.md` file in your GitHub Copilot Chat environment. The activated persona will respond to your prompts according to its responsibilities and autonomous workflow.
-
-**See [`GUIDE.md`](./GUIDE.md) for detailed installation and usage instructions.**
-
-
-## Estrutura do Repositório
-
-```
-. ├── README.md
-    ├── GUIDE.md
-    ├── DOCS/
-    │   └── (Documentação detalhada de cada persona)
-    ├── modes/
-    │   ├── ai-learning-tutor.chatmode.md
-    │   ├── architect.chatmode.md
-    │   ├── data-engineer.chatmode.md
-    │   ├── devops-engineer.chatmode.md
-    │   ├── implementer.chatmode.md
-    │   ├── personal-assistant.chatmode.md
-    │   ├── problem-solver.chatmode.md
-    │   ├── product-manager.chatmode.md
-    │   ├── qa-engineer.chatmode.md
-    │   ├── scrum-master.chatmode.md
-    │   ├── security-engineer.chatmode.md
-    │   ├── site-reliability-engineer.chatmode.md
-    │   ├── technical-writer.chatmode.md
-    │   ├── ux-designer.chatmode.md
-    │   └── (outros chat modes existentes)
-    └── .gitattributes (Opcional)
+```yaml
+Especialização: Implementação e desenvolvimento de código
+Max Iterations: 2 (otimizado)
+Ideal Para:
+  - Feature implementation
+  - Bug fixing e debugging
+  - API development
+  - Basic data operations (SQL, queries)
+  - Testing implementation
 ```
 
-## Contribuindo
+### 🏗️ **Software Architect**
 
-Contribuições são bem-vindas! Para adicionar novas personas ou melhorar existentes:
+```yaml
+Especialização: Arquitetura de sistemas e design técnico
+Max Iterations: 2 (otimizado)
+Ideal Para:
+  - System design e architecture planning
+  - Technology selection
+  - Integration strategy
+  - Performance optimization
+  - Simplicity-first approach
+```
 
-1. Fork o repositório e crie uma branch.
-2. Adicione ou edite arquivos em `modes/` ou `DOCS/`.
-3. Abra um Pull Request com uma descrição clara das mudanças.
-4. Siga o padrão de autonomia, ferramentas e metodologia das personas existentes.
+### ✅ **Quality Assurance Engineer**
 
-## Licença
+```yaml
+Especialização: Testing, QA e debugging
+Max Iterations: 2 (otimizado)
+Ideal Para:
+  - Test strategy e implementation
+  - Bug investigation e root cause analysis
+  - Performance/security/accessibility testing
+  - Quality gates establishment
+```
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+### ⚙️ **Operations Engineer**
 
-## Links Úteis e Referências
+```yaml
+Especialização: DevOps, SRE e Security (unified)
+Max Iterations: 2 (mais agressivamente otimizado)
+Ideal Para:
+  - CI/CD pipeline implementation
+  - Infrastructure as Code
+  - Monitoring e alerting
+  - Security controls
+  - Incident response
+```
+
+### 🎨 **UX UI Designer**
+
+```yaml
+Especialização: User experience e interface design
+Max Iterations: 3
+Ideal Para:
+  - User research e persona development
+  - Wireframing e prototyping
+  - Design system creation
+  - Accessibility compliance (WCAG 2.1 AA)
+  - Usability testing
+```
+
+---
+
+## ⚡ Otimizações v2.1
+
+### **Checkpoint Strategy**
+
+Cada mode implementa checkpoints de progresso:
+
+```
+✅ Phase 1 Complete:
+- Key accomplishment 1
+- Key accomplishment 2
+- Next: Phase 2 - [brief description]
+
+Continue to next phase? (Implicit: yes, unless user stops)
+```
+
+### **Credit Efficiency**
+
+| Mode                | v2.0 Iterations | v2.1 Iterations | Saving   |
+| ------------------- | --------------- | --------------- | -------- |
+| Software Developer  | 3               | 2               | -33%     |
+| Software Architect  | 3               | 2               | -33%     |
+| Quality Assurance   | 3               | 2               | -33%     |
+| Operations Engineer | 4               | 2               | **-50%** |
+| UX UI Designer      | 4               | 3               | -25%     |
+
+**Média de redução**: ~35% menos iterações
+
+### **VS Code Configuration**
+
+```json
+// .vscode/settings.json (incluído)
+{
+  "chat.editor.maxOutputTokens": 8192, // Dobro do default
+  "chat.agent.maxRequests": 3, // Mantido
+  "chat.agent.editRequests": 5, // Aumentado
+  "github.copilot.chat.manageOverages": false // Protege budget
+}
+```
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+Autonomous-Agent-Archetypes/
+├── .vscode/
+│   └── settings.json                    # ⚙️ VS Code optimizations
+├── DOCS/
+│   ├── checkpoint-optimizations.md      # 📊 v2.1 changes explained
+│   ├── credit-management-guide.md       # 💰 Complete credit guide
+│   ├── modes-registry.md                # 📚 Mode capabilities
+│   ├── examples-library.md              # 💡 Usage examples
+│   └── troubleshooting-guide.md         # 🔧 Common issues
+├── modes/
+│   ├── Software Developer.chatmode.md
+│   ├── Software Architect.chatmode.md
+│   ├── Quality Assurance Engineer.chatmode.md
+│   ├── Operations Engineer.chatmode.md
+│   ├── UX UI Designer.chatmode.md
+│   └── archived/                        # 🗃️ 7 archived modes
+├── templates/
+│   ├── architecture.md                  # 🏗️ Architecture doc template
+│   ├── ci.yml                          # ⚙️ CI/CD pipeline template
+│   ├── runbook.md                      # 📖 Operations runbook
+│   ├── review_report.md                # ✅ PR review template
+│   ├── test.example.js                 # 🧪 Jest test example
+│   ├── TestExample.cs                  # 🧪 xUnit test example
+│   └── README.md                       # 📚 Template usage guide
+├── GUIDE.md                            # 🚀 Quick start guide
+└── README.md                           # 📄 This file
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. **Clone o Repositório**
+
+```bash
+git clone https://github.com/WalcimarZD/Autonomous-Agent-Archetypes.git
+cd Autonomous-Agent-Archetypes
+```
+
+### 2. **Abra no VS Code**
+
+```bash
+code-insiders .
+```
+
+As configurações em `.vscode/settings.json` serão aplicadas automaticamente.
+
+### 3. **Use um Mode**
+
+```
+# No GitHub Copilot Chat (Ctrl+Alt+I):
+@workspace /mode Software Developer
+
+"Implementar autenticação JWT com:
+- PostgreSQL storage
+- Express.js backend
+- Refresh token rotation
+- RBAC (admin, user)
+- Rate limiting (100 req/min)"
+```
+
+### 4. **Observe os Checkpoints**
+
+```
+✅ Phase 1 Complete:
+- User model created (id, email, passwordHash, role)
+- JWT token generation implemented
+- Auth middleware with role checking
+- Basic tests (15 unit, 3 integration)
+Next: Phase 2 - Refresh token rotation + rate limiting
+
+Continue to next phase?
+```
+
+---
+
+## 📚 Documentação
+
+### **Essencial**
+
+- [**GUIDE.md**](./GUIDE.md): Installation and usage guide
+- [**modes-registry.md**](./DOCS/modes-registry.md): Complete mode capabilities
+- [**checkpoint-optimizations.md**](./DOCS/checkpoint-optimizations.md): v2.1 changes
+
+### **Otimização**
+
+- [**credit-management-guide.md**](./DOCS/credit-management-guide.md): Complete credit optimization guide
+- [**examples-library.md**](./DOCS/examples-library.md): Usage examples and patterns
+- [**troubleshooting-guide.md**](./DOCS/troubleshooting-guide.md): Common issues and solutions
+
+---
+
+## 🎯 Seleção de Mode
+
+### **Por Fase do Projeto**
+
+| Fase                     | Mode Recomendado                    |
+| ------------------------ | ----------------------------------- |
+| Discovery & Requirements | UX UI Designer (user research)      |
+| Design & Architecture    | Software Architect + UX UI Designer |
+| Implementation           | Software Developer                  |
+| Testing & Quality        | Quality Assurance Engineer          |
+| Operations & Deployment  | Operations Engineer                 |
+
+### **Por Tipo de Problema**
+
+| Problema                            | Mode                       |
+| ----------------------------------- | -------------------------- |
+| Technical design needed             | Software Architect         |
+| Implementation challenges           | Software Developer         |
+| Bugs/Issues/Testing                 | Quality Assurance Engineer |
+| Performance/Infrastructure/Security | Operations Engineer        |
+| User experience issues              | UX UI Designer             |
+| Basic SQL/data operations           | Software Developer         |
+
+---
+
+## 🏗️ Templates Disponíveis
+
+Todos os modes referenciam templates padronizados:
+
+| Template           | Usado Por              | Propósito                                 |
+| ------------------ | ---------------------- | ----------------------------------------- |
+| `architecture.md`  | Software Architect     | Documentação de arquitetura (11 seções)   |
+| `ci.yml`           | Operations Engineer    | GitHub Actions CI/CD pipeline             |
+| `runbook.md`       | Operations Engineer    | Operational runbook com health indicators |
+| `review_report.md` | Quality Assurance      | PR review com severity levels             |
+| `test.example.js`  | Software Developer, QA | Jest test template                        |
+| `TestExample.cs`   | Software Developer, QA | xUnit test template                       |
+
+**Veja**: `templates/README.md` para usage guide
+
+---
+
+## 🗃️ Modes Arquivados (7)
+
+Os seguintes modes foram consolidados mas estão disponíveis em `modes/archived/`:
+
+- **Data Engineer**: Operações básicas integradas no Software Developer
+- **Debugger**: Merged into Quality Assurance Engineer
+- **DevOps Engineer**: Merged into Operations Engineer
+- **Site Reliability Engineer**: Merged into Operations Engineer
+- **Security Engineer**: Merged into Operations Engineer
+- **Product Manager**: Removido (depende de interação humana)
+- **Scrum Master**: Removido (facilitação de meetings)
+- **Technical Writer**: Removido (prioridade reduzida)
+
+**Quando restaurar**: Para projetos complexos que exigem especialização dedicada
+
+---
+
+## 💡 Best Practices
+
+### **1. Prompts Completos**
+
+❌ **Evitar**:
+
+```
+"Implementar autenticação"
+[Multiple clarifying requests needed]
+```
+
+✅ **Preferir**:
+
+```
+"Use Software Developer mode.
+Implementar autenticação JWT com:
+- PostgreSQL storage
+- Express.js backend
+- Refresh token rotation
+- RBAC (admin, user)
+- Rate limiting (100 req/min)
+Siga templates disponíveis."
+```
+
+### **2. Usar Templates**
+
+❌ **Evitar**:
+
+```
+"Criar CI/CD pipeline"
+[Generic output without context]
+```
+
+✅ **Preferir**:
+
+```
+"Use Operations Engineer mode.
+Base em templates/ci.yml para criar pipeline Node.js com:
+- Lint (ESLint), Test (Jest 80%+)
+- Security (npm audit, Snyk)
+- Deploy AWS Elastic Beanstalk
+- Staging + Production envs"
+```
+
+### **3. Aproveitar Checkpoints**
+
+```
+✅ Revisar Phase 1 output
+✅ Confirmar approach está correto
+✅ Prosseguir para Phase 2
+✅ Evitar retrabalho e waste de créditos
+```
+
+---
+
+## 📈 Monitoramento de Uso
+
+### **GitHub Settings**
+
+```
+github.com → Settings → Copilot → Usage
+```
+
+- Visualize requests diários/mensais
+- Identifique padrões de alto consumo
+- Planeje otimizações
+
+### **VS Code**
+
+```
+Ctrl+Shift+P → "GitHub Copilot: View Usage"
+```
+
+- Estatísticas locais
+- Sessions que consumiram mais
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas!
+
+1. **Fork** o repositório
+2. **Crie** branch: `git checkout -b feature/nova-otimizacao`
+3. **Commit**: `git commit -m 'Add: nova otimização X'`
+4. **Push**: `git push origin feature/nova-otimizacao`
+5. **Abra** Pull Request
+
+**Guias**:
+
+- Mantenha princípios de simplicidade
+- Documente mudanças em DOCS/
+- Teste com prompts reais
+- Atualize modes-registry.md
+
+---
+
+## 📜 Licença
+
+MIT License - veja [LICENSE](./LICENSE) para detalhes
+
+---
+
+## 🔗 Links Úteis
 
 - [GitHub Copilot](https://github.com/features/copilot)
-- [Documentação Oficial do Copilot](https://docs.github.com/en/copilot)
-- [Beast Mode (inspiração)](https://github.com/BeastModeAI)
-- [`GUIDE.md`](./GUIDE.md) — Guia detalhado de uso
+- [Copilot Documentation](https://docs.github.com/en/copilot)
+- [VS Code Copilot Settings](https://code.visualstudio.com/docs/copilot/copilot-settings)
+- [Copilot Pricing](https://github.com/features/copilot#pricing)
 
 ---
-Se desejar contribuir com traduções, exemplos ou documentação, abra uma issue ou PR!
+
+## 📊 Stats
+
+- **Modes Ativos**: 5 (otimizados para credit efficiency)
+- **Modes Arquivados**: 7 (disponíveis para restore)
+- **Templates**: 6 (padronizados e documentados)
+- **Redução Média de Iterações**: ~35% (v2.0 → v2.1)
+- **VS Code Settings**: Incluídas e otimizadas
+
+---
+
+**Versão**: 2.1  
+**Data**: October 2025  
+**Manutenção**: Ativa  
+**Comunidade**: Open Source
+
+Se desejar contribuir com traduções, exemplos ou otimizações, abra uma issue ou PR! 🚀

@@ -1,6 +1,6 @@
 ---
 description: Enhanced Scrum Master 2.0
-tools: ['changes', 'problems', 'search', 'fetch', 'codebase', 'usages', 'runCommands', 'searchResults']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Scrum Master 2.0

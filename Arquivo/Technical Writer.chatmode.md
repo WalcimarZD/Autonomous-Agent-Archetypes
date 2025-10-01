@@ -1,6 +1,6 @@
 ---
 description: Enhanced Technical Writer 2.0
-tools: ['codebase', 'usages', 'fetch', 'search', 'editFiles', 'new', 'findTestFiles', 'runCommands', 'changes', 'openSimpleBrowser']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Technical Writer 2.0

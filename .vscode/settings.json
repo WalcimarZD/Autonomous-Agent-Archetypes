@@ -1,0 +1,58 @@
+{
+  // ========================================
+  // GitHub Copilot Chat Optimizations v2.1
+  // ========================================
+  
+  // Maximum tokens for chat responses
+  // Default: 4096 | Max: 16384
+  // Strategy: Use 8192 (double default) for balanced responses
+  // Rationale: Allows comprehensive outputs while preventing excessive token usage
+  "chat.editor.maxOutputTokens": 8192,
+  
+  // Maximum number of requests Copilot can make
+  // Default: 3
+  // Strategy: Keep at 3 to limit multi-request loops
+  // Rationale: Forces modes to deliver complete outputs in fewer iterations
+  "chat.agent.maxRequests": 3,
+  
+  // Maximum edit requests per chat session
+  // Default: 3
+  // Strategy: Increase to 5 for implementation-heavy modes
+  // Rationale: Software Developer and Operations Engineer may need more file edits
+  "chat.agent.editRequests": 5,
+  
+  // ========================================
+  // GitHub Copilot Credit Management
+  // ========================================
+  
+  // Manage overages (Free/Pro/Business/Enterprise)
+  // Set to false to prevent unexpected charges beyond plan limits
+  "github.copilot.chat.manageOverages": false,
+  
+  // ========================================
+  // Mode-Specific Considerations
+  // ========================================
+  
+  // With these settings:
+  // - Software Developer: Can deliver core implementation in 1-2 requests
+  // - Operations Engineer: Can setup CI/CD + monitoring in 2 requests
+  // - Quality Assurance: Can implement test suite in 1-2 requests
+  // - Software Architect: Can deliver architecture + roadmap in 2 requests
+  // - UX UI Designer: Can complete research + design in 2-3 requests
+  
+  // ========================================
+  // Additional Optimizations
+  // ========================================
+  
+  // Copilot suggestion delay (milliseconds)
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // Enable Copilot in specific file types
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "markdown": true,
+    "json": true,
+    "plaintext": false
+  }
+}

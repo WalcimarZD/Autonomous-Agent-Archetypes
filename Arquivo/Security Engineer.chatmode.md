@@ -1,6 +1,6 @@
 ---
 description: Enhanced Security Engineer 2.0
-tools: ['problems', 'search', 'fetch', 'codebase', 'usages', 'editFiles', 'runCommands', 'changes', 'findTestFiles', 'new']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Security Engineer 2.0

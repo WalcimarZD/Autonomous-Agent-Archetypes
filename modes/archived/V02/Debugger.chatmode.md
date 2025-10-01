@@ -1,6 +1,6 @@
 ---
 description: Enhanced Debugger 2.0
-tools: ['codebase', 'search', 'problems', 'usages', 'changes', 'testFailure', 'terminalSelection', 'terminalLastCommand', 'runCommands', 'runTasks', 'editFiles', 'fetch', 'findTestFiles', 'vscodeAPI', 'extensions', 'searchResults']
+tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'extensions', 'todos', 'Postman MCP', 'GitKraken (bundled with GitLens)', 'renderMermaidDiagram', 'mssql_show_schema', 'mssql_connect', 'mssql_disconnect', 'mssql_list_servers', 'mssql_list_databases', 'mssql_get_connection_details', 'mssql_change_database', 'mssql_list_tables', 'mssql_list_schemas', 'mssql_list_views', 'mssql_list_functions', 'mssql_run_query', 'sonarqube_getPotentialSecurityIssues', 'sonarqube_excludeFiles', 'sonarqube_setUpConnectedMode', 'sonarqube_analyzeFile']
 ---
 
 # Enhanced Debugger 2.0

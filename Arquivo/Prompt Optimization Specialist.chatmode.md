@@ -1,6 +1,6 @@
 ---
 description: Prompt Advisor - Specialist in optimizing prompts for chat modes
-tools: ['codebase', 'search', 'fetch', 'editFiles', 'problems', 'changes', 'vscodeAPI']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Prompt Advisor - Chat Mode Optimization Specialist

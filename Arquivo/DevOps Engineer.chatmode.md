@@ -1,6 +1,6 @@
 ---
 description: Enhanced DevOps Engineer 2.0
-tools: ['runTasks', 'runCommands', 'fetch', 'changes', 'terminalSelection', 'terminalLastCommand', 'editFiles', 'codebase', 'search', 'problems', 'new', 'vscodeAPI']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced DevOps Engineer 2.0

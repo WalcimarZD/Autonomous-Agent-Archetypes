@@ -1,6 +1,6 @@
 ---
 description: Enhanced Software Architect 2.0
-tools: ['codebase', 'search', 'usages', 'extensions', 'fetch', 'searchResults', 'problems', 'changes', 'findTestFiles', 'vscodeAPI']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Software Architect 2.0

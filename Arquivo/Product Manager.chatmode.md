@@ -1,6 +1,6 @@
 ---
 description: Enhanced Product Manager 2.0
-tools: ['codebase', 'search', 'fetch', 'openSimpleBrowser', 'searchResults', 'usages', 'extensions', 'problems', 'changes']
+tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'todos']
 ---
 
 # Enhanced Product Manager 2.0
